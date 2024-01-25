@@ -1,0 +1,43 @@
+.Card {
+    position: relative;
+    width: 100px;
+    height: 120px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.20);
+    margin: 5px;
+}
+
+.Card>small {
+    font-size: 8px;
+    margin-left: calc(100% - 20px);
+    color: #666666;
+}
+
+.Card>img {
+    position: relative;
+    display: flex;
+    width: 72px;
+    z-index: 10;
+    margin: auto;
+}
+
+.Card>p {
+    position: relative;
+    margin: auto;
+    margin-bottom: 10px;
+    color: #212121;
+    font-size: 10px;
+    z-index: 10;
+    text-align: center;
+}
+
+.Card>div {
+    position: absolute;
+    background-color: #efefef;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    border-radius: 10px;
+    z-index: 0;
+}

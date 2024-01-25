@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    background-color: #DC0A2D;
+    width: 400px;
+    margin: 20px auto;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.header {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 15px;
+    color: #fff;
+    align-items: center;
+}
+
+.header img {
+    width: 24px;
+}
+
+.header h1 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.search {
+    align-items: center;
+    display: flex;
+    gap: 16px;
+    height: 30px;
+    margin-bottom: 25px;
+}
+
+.lupa {
+    position: absolute;
+    width: 20px;
+    margin-left: 10px;
+}
+
+.search input {
+    width: 90%;
+    border-radius: 16px;
+    border: none;
+    box-shadow: inset 1px 1px 1px rgba(0, 0, 0, 0.232);
+    padding: 10px 10px 10px 35px;
+    outline: none;
+}
+
+.filter {
+    display: flex;
+    background-color: #fff;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.filter img {
+    width: 80%;
+}
+
+.pokeGrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 370px;
+    height: 600px;
+    padding: 10px;
+    margin: auto;
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+}
